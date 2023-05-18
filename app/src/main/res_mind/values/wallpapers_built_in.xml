@@ -1,0 +1,117 @@
+<!--
+  Copyright (C) 2019 The LineageOS Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+
+    <array name="wallpaper_built_in_drawables">
+        <item>@drawable/wallpaper1</item>
+        <item>@drawable/wallpaper2</item>
+        <item>@drawable/wallpaper3</item>
+        <item>@drawable/wallpaper4</item>
+        <item>@drawable/wallpaper5</item>
+        <item>@drawable/wallpaper6</item>
+        <item>@drawable/wallpaper7</item>
+        <item>@drawable/wallpaper8</item>
+        <item>@drawable/wallpaper9</item>
+        <item>@drawable/wallpaper10</item>
+        <item>@drawable/wallpaper11</item>
+        <item>@drawable/wallpaper12</item>
+        <item>@drawable/wallpaper13</item>
+        <item>@drawable/wallpaper14</item>
+        <item>@drawable/wallpaper15</item>
+        <item>@drawable/wallpaper16</item>
+        <item>@drawable/wallpaper17</item>
+        <item>@drawable/wallpaper18</item>
+        <item>@drawable/wallpaper19</item>
+        <item>@drawable/wallpaper20</item>
+        <item>@drawable/wallpaper21</item>
+        <item>@drawable/wallpaper22</item>
+        <item>@drawable/wallpaper23</item>
+        <item>@drawable/wallpaper24</item>
+        <item>@drawable/wallpaper25</item>
+        <item>@drawable/wallpaper26</item>
+        <item>@drawable/wallpaper27</item>
+        <item>@drawable/wallpaper28</item>
+        <item>@drawable/wallpaper29</item>
+        <item>@drawable/wallpaper30</item>
+        <item>@drawable/wallpaper31</item>
+        <item>@drawable/wallpaper32</item>
+        <item>@drawable/wallpaper33</item>
+        <item>@drawable/wallpaper34</item>
+        <item>@drawable/wallpaper35</item>
+        <item>@drawable/wallpaper36</item>
+        <item>@drawable/wallpaper37</item>
+        <item>@drawable/wallpaper38</item>
+        <item>@drawable/wallpaper39</item>
+        <item>@drawable/wallpaper40</item>
+        <item>@drawable/wallpaper41</item>
+        <item>@drawable/wallpaper42</item>
+        <item>@drawable/wallpaper43</item>
+        <item>@drawable/wallpaper44</item>
+        <item>@drawable/wallpaper45</item>
+        <item>@drawable/wallpaper46</item>
+        <item>@drawable/wallpaper47</item>
+    </array>
+
+    <string-array name="wallpaper_built_in_names">
+        <item>wallpaper1</item>
+        <item>wallpaper2</item>
+        <item>wallpaper3</item>
+        <item>wallpaper4</item>
+        <item>wallpaper5</item>
+        <item>wallpaper6</item>
+        <item>wallpaper7</item>
+        <item>wallpaper8</item>
+        <item>wallpaper9</item>
+        <item>wallpaper10</item>
+        <item>wallpaper11</item>
+        <item>wallpaper12</item>
+        <item>wallpaper13</item>
+        <item>wallpaper14</item>
+        <item>wallpaper15</item>
+        <item>wallpaper16</item>
+        <item>wallpaper17</item>
+        <item>wallpaper18</item>
+        <item>wallpaper19</item>
+        <item>wallpaper20</item>
+        <item>wallpaper21</item>
+        <item>wallpaper22</item>
+        <item>wallpaper23</item>
+        <item>wallpaper24</item>
+        <item>wallpaper25</item>
+        <item>wallpaper26</item>
+        <item>wallpaper27</item>
+        <item>wallpaper28</item>
+        <item>wallpaper29</item>
+        <item>wallpaper30</item>
+        <item>wallpaper31</item>
+        <item>wallpaper32</item>
+        <item>wallpaper33</item>
+        <item>wallpaper34</item>
+        <item>wallpaper35</item>
+        <item>wallpaper36</item>
+        <item>wallpaper37</item>
+        <item>wallpaper38</item>
+        <item>wallpaper39</item>
+        <item>wallpaper40</item>
+        <item>wallpaper41</item>
+        <item>wallpaper42</item>
+        <item>wallpaper43</item>
+        <item>wallpaper44</item>
+        <item>wallpaper45</item>
+        <item>wallpaper46</item>
+        <item>wallpaper47</item>
+    </string-array>
+</resources>

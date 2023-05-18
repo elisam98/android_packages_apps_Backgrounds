@@ -18,22 +18,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
-
-ifeq ($(shell test $(TARGET_SCREEN_WIDTH) -gt 1080; echo $$?),0)
-LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_1440p/common
-ifeq ($(PRODUCT_SIZE), mini)
-LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_1440p/small
-else
-LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_1440p/full
-endif
-else
-LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_1080p/common
-ifeq ($(PRODUCT_SIZE), mini)
-LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_1080p/small
-else
-LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_1080p/full
-endif
-endif
+LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_mind
 
 LOCAL_SRC_FILES := \
     $(call all-java-files-under, java)
@@ -49,7 +34,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     com.google.android.material_material
 
 LOCAL_PACKAGE_NAME := Backgrounds
-
+LOCAL_PACKAGE_OVERRIDES := WallpaperPicker WallpaperPicker2 MtkWallpaperPicker
 LOCAL_PROGUARD_FLAG_FILES := ../../proguard-rules.pro
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay
